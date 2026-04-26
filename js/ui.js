@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <a href="detalle.html?type=${itemType}&id=${item.id}" class="ui-link">${name}</a>
                 </h3>
                 <p>${itemType}</p>
-                <button class="btn btn-fav" data-id="${item.id}" data-name="${name}" data-desc="Descripción omitida" data-type="${itemType}">
+                <button class="btn btn-fav" data-id="${item.id}" data-name="${name}" data-desc="${item.description || 'Sin descripción'}" data-type="${itemType}">
                     + Favorito
                 </button>
             `;
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
             btn.textContent = "Guardado ✓";
             btn.classList.add("active");
             
-            loadFavorites();
+            setTimeout(() => loadFavorites(), 500);
         } catch (err) {
             btn.textContent = "Error al guardar";
             btn.disabled = false;
@@ -127,6 +127,8 @@ document.addEventListener("DOMContentLoaded", () => {
             favoritesState.textContent = "Firebase no está inicializado. No se cargarán favoritos.";
             return;
         }
+
+        if (!favoritesState || !favoritesResults) return;
 
         favoritesState.textContent = "Cargando favoritos desde la nube...";
         favoritesState.classList.remove("hidden");
@@ -175,6 +177,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function renderFavorites(items) {
+        if (!favoritesResults || !favoritesState) return;
+
         favoritesResults.innerHTML = "";
         
         if (items.length === 0) {
@@ -196,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="entity-meta">${tipoText}</div>
                 <h3 class="entity-title">${item.name}</h3>
                 <p class="entity-desc">${item.description.substring(0, 100)}...</p>
-                <button class="btn btn-danger btn-delete-fav" data-docid="${item.docId}">
+                <button class="btn btn-danger" data-docid="${item.docId}">
                     Eliminar Favorito
                 </button>
             `;
@@ -217,7 +221,7 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             btn.textContent = "Eliminando...";
             await deleteFavorite(docId);
-            loadFavorites(); 
+            setTimeout(() => loadFavorites(), 500); 
         } catch (error) {
             btn.textContent = "Eliminar Favorito";
             favoritesState.textContent = "Error al borrar: " + error.message;

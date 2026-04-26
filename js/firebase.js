@@ -58,14 +58,16 @@ async function addFavorite(item) {
 
 async function getFavorites() {
     if (!db) throw new Error("Firebase no está configurado.");
+    const userId = getAnonymousUserId();    
     try {
-        const querySnapshot = await db.collection("favoritos").get();
+        const querySnapshot = await db
+            .collection("usuarios")
+            .doc(userId)
+            .collection("favoritos")
+            .get();
         const favs = [];
         querySnapshot.forEach((docSnap) => {
-            favs.push({
-                docId: docSnap.id,
-                ...docSnap.data()
-            });
+            favs.push({ docId: docSnap.id, ...docSnap.data() });
         });
         return favs;
     } catch (e) {
@@ -74,11 +76,16 @@ async function getFavorites() {
     }
 }
 
-
 async function deleteFavorite(docId) {
     if (!db) throw new Error("Firebase no está configurado.");
+    const userId = getAnonymousUserId();
     try {
-        await db.collection("favoritos").doc(docId).delete();
+        await db
+            .collection("usuarios")
+            .doc(userId)
+            .collection("favoritos")
+            .doc(docId)
+            .delete();
         console.log("Favorito eliminado:", docId);
     } catch (e) {
         console.error("Error al eliminar favorito:", e);

@@ -190,7 +190,6 @@ footer{
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
-
 }
 
 .entity-title {
@@ -244,4 +243,10 @@ footer{
 }
 .ui-link {
     color: inherit;
+}
+
+/*transform js*/
+.transform-error {
+    color: red;
+    text-align: center;
 }
