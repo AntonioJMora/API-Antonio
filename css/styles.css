@@ -153,3 +153,15 @@ footer{
     padding: 15px;
     border-top: 4px solid #2E7D32;
 }
+
+/*Detalle js*/
+.detalle-divider {
+    width: 100%;
+}
+.lista-detalles-js{
+    padding-left: 1rem;
+    list-style-position: inside
+}
+.detalle-error {
+    color: red;
+}
