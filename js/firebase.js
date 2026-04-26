@@ -8,6 +8,17 @@ const firebaseConfig = {
 };
 
 let db = null;
+
+function getAnonymousUserId() {
+    let userId = localStorage.getItem("hyrule_user_id");
+    if (!userId) {
+        userId = crypto.randomUUID();
+        localStorage.setItem("hyrule_user_id", userId);
+        console.log("[Hyrule] Nuevo ID de usuario anónimo creado:", userId);
+    }
+    return userId;
+}
+
 try {
     if (firebaseConfig.apiKey !== "") {
         firebase.initializeApp(firebaseConfig);
@@ -23,13 +34,18 @@ try {
 
 async function addFavorite(item) {
     if (!db) throw new Error("Firebase no está configurado.");
+    const userId = getAnonymousUserId();
     try {
-        const docRef = await db.collection("favoritos").add({
-            apiId: item.id,
-            name: item.name || "Desconocido",
-            description: item.description || "Sin descripción",
-            type: item.type,
-            dateAdded: new Date().toISOString()
+        const docRef = await db
+            .collection("usuarios")
+            .doc(userId)
+            .collection("favoritos")
+            .add({
+                apiId: item.id,
+                name: item.name || "Desconocido",
+                description: item.description || "Sin descripción",
+                type: item.type,
+                dateAdded: new Date().toISOString()
         });
         console.log("Añadido a favoritos con ID:", docRef.id);
         return docRef.id;
