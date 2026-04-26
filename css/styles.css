@@ -183,3 +183,65 @@ footer{
     align-items: center;
     gap: 10px;
 }
+
+/*Cards de busqueda*/
+.results-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.entity-title {
+    font-size: 18px;
+    color: #050C15;
+}
+
+.entity-desc {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.entity-card {
+    border: 1px dashed #666;
+    background-color: #23D38A;
+    padding: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 10px;
+}
+
+.entity-card p {
+
+    text-transform: capitalize;
+}
+
+.entity-card a{
+    color: #050C15;
+    text-decoration: none;
+}
+
+.btn-fav {
+    background-color: #253324;
+    color: #CCE2FF;
+}
+
+.btn-fav:hover {
+    background-color: #171F17;
+}
+
+.btn-fav.active {
+    background-color: #567156;
+    color: FFFFFF;
+}
+
+.btn-fav.active:hover {
+    background-color: #455C45;
+}
+.ui-link {
+    color: inherit;
+}
