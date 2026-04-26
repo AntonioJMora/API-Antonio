@@ -153,6 +153,9 @@ th {
     background-color: #FBBE49;
 }
 
+.table-body{
+    background-color: white;
+}
 /*Footer*/
 footer{
     background-color: var(--fondo-header);
