@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ce06df9-cf3f-434e-8316-e3f8a6c376df" name="Changes" comment="" />
+    <list default="true" id="6ce06df9-cf3f-434e-8316-e3f8a6c376df" name="Changes" comment="Corrección de head">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/detalle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favoritos.html" beforeDir="false" afterPath="$PROJECT_DIR$/favoritos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +45,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,7 +63,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28539.21" />
       </set>
     </attachedChunks>
   </component>
@@ -74,10 +81,24 @@
       <workItem from="1776061345494" duration="4202000" />
       <workItem from="1776079011512" duration="31000" />
       <workItem from="1777198693973" duration="3934000" />
+      <workItem from="1777204061329" duration="2576000" />
     </task>
+    <task id="LOCAL-00001" summary="Corrección de head">
+      <option name="closed" value="true" />
+      <created>1777204311542</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777204311542</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrección de head" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrección de head" />
   </component>
 </project>

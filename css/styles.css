@@ -1,0 +1,40 @@
+/*style="width: 120px; display: block; margin: 0 auto 10px; border-radius: 8px;"*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap');
+
+:root{
+    --fondo-header: #008276;
+    --color-letras: #333;
+    --color-enlaces: #253324;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', Arial, sans-serif;
+}
+
+.app-header {
+    background-color: var(--fondo-header);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 4px solid #2E7D32;
+}
+
+.app-header img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    padding-top: 15px;
+    list-style: none;
+}
+
+.nav-menu li a {
+    color: black;
+    text-decoration: none;
+}
