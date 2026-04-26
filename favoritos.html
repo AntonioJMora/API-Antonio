@@ -17,5 +17,36 @@
         <li><a href="favoritos.html">Mis Favoritos</a></li>
     </ul>
 </header>
+<main class="app-container">
+    <!-- Bloque 2: Favoritos FireStore -->
+    <section class="card">
+        <article class="catalog-article">
+            <h2>Mis Favoritos en la Nube</h2>
+            <div class="fav-actions">
+                <button id="btnDeleteAllFavs" class="btn btn-danger">Vaciar Todos</button>
+                <select id="favFilterSelect" class="form-select">
+                    <option value="all">Ver Todos</option>
+                    <option value="games">Juegos</option>
+                    <option value="staff">Personal</option>
+                    <option value="characters">Personajes</option>
+                    <option value="monsters">Monstruos</option>
+                    <option value="bosses">Jefes</option>
+                    <option value="dungeons">Mazmorras</option>
+                    <option value="places">Lugares</option>
+                    <option value="items">Objetos</option>
+                </select>
+                <select id="favSortSelect" class="form-select">
+                    <option value="date-new">Más recientes</option>
+                    <option value="date-old">Más antiguos</option>
+                    <option value="name-asc">Nombre (A-Z)</option>
+                    <option value="name-desc">Nombre (Z-A)</option>
+                </select>
+            </div>
+        </article>
+
+        <div id="favoritesState" class="search-state">Cargando tus favoritos desde Firebase...</div>
+
+    </section>
+</main>
 </body>
 </html>

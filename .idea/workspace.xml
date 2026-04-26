@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ce06df9-cf3f-434e-8316-e3f8a6c376df" name="Changes" comment="index.html con css (sin js)">
+    <list default="true" id="6ce06df9-cf3f-434e-8316-e3f8a6c376df" name="Changes" comment="js de detalle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/detalle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/detalle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/detalle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favoritos.html" beforeDir="false" afterPath="$PROJECT_DIR$/favoritos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <workItem from="1776061345494" duration="4202000" />
       <workItem from="1776079011512" duration="31000" />
       <workItem from="1777198693973" duration="3934000" />
-      <workItem from="1777204061329" duration="10272000" />
+      <workItem from="1777204061329" duration="12154000" />
     </task>
     <task id="LOCAL-00001" summary="Corrección de head">
       <option name="closed" value="true" />
@@ -114,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777212782326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="html de detalle junto con css">
+      <option name="closed" value="true" />
+      <created>1777214996653</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777214996653</updated>
+    </task>
+    <task id="LOCAL-00006" summary="js de detalle">
+      <option name="closed" value="true" />
+      <created>1777215012893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1777215012893</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +141,8 @@
     <MESSAGE value="Header realizado" />
     <MESSAGE value="Correción de header" />
     <MESSAGE value="index.html con css (sin js)" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.html con css (sin js)" />
+    <MESSAGE value="html de detalle junto con css" />
+    <MESSAGE value="js de detalle" />
+    <option name="LAST_COMMIT_MESSAGE" value="js de detalle" />
   </component>
 </project>

@@ -127,6 +127,14 @@ h2 {
 .btn:hover {
     background-color: #5E5E5E;
 }
+
+.btn-danger {
+    background-color: #f44336;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f;
+}
 /*Tabla catalogo*/
 table {
     width: 100%;
@@ -164,4 +172,11 @@ footer{
 }
 .detalle-error {
     color: red;
+}
+
+/*Pagina favoritos*/
+.fav-actions{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
