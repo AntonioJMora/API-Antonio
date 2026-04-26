@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Entidad_Zelda_API",
+  "description": "Validador genérico para una entidad devuelta por la API de Zelda (juegos, personajes, etc).",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Identificador único"
+    },
+    "name": {
+      "type": "string",
+      "description": "Nombre de la entidad"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descripción de la entidad"
+    }
+  },
+  "required": ["id", "name", "description"]
+}
