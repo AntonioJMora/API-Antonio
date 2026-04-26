@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<saga nombre="The Legend of Zelda" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="juegos.xsd">
+    <juego id="001">
+        <titulo>The Legend of Zelda: Ocarina of Time</titulo>
+        <desarrolladora>Nintendo EAD</desarrolladora>
+        <publicadora>Nintendo</publicadora>
+        <plataforma>Nintendo 64</plataforma>
+        <anio>1998</anio>
+        <puntuacion>99</puntuacion>
+    </juego>
+    <juego id="002">
+        <titulo>The Legend of Zelda: Breath of the Wild</titulo>
+        <desarrolladora>Nintendo EPD</desarrolladora>
+        <publicadora>Nintendo</publicadora>
+        <plataforma>Nintendo Switch</plataforma>
+        <anio>2017</anio>
+        <puntuacion>97</puntuacion>
+    </juego>
+    <juego id="003">
+        <titulo>The Legend of Zelda: Majora's Mask</titulo>
+        <desarrolladora>Nintendo EAD</desarrolladora>
+        <publicadora>Nintendo</publicadora>
+        <plataforma>Nintendo 64</plataforma>
+        <anio>2000</anio>
+        <puntuacion>95</puntuacion>
+    </juego>
+    <juego id="004">
+        <titulo>The Legend of Zelda: A Link to the Past</titulo>
+        <desarrolladora>Nintendo EAD</desarrolladora>
+        <publicadora>Nintendo</publicadora>
+        <plataforma>Super Nintendo</plataforma>
+        <anio>1991</anio>
+        <puntuacion>95</puntuacion>
+    </juego>
+    <juego id="005">
+        <titulo>The Legend of Zelda: Tears of the Kingdom</titulo>
+        <desarrolladora>Nintendo EPD</desarrolladora>
+        <publicadora>Nintendo</publicadora>
+        <plataforma>Nintendo Switch</plataforma>
+        <anio>2023</anio>
+        <puntuacion>96</puntuacion>
+    </juego>
+</saga>

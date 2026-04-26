@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="saga">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="juego" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo" type="xs:string"/>
+                            <xs:element name="desarrolladora" type="xs:string"/>
+                            <xs:element name="publicadora" type="xs:string"/>
+                            <xs:element name="plataforma" type="xs:string"/>
+                            <xs:element name="anio" type="xs:integer"/>
+                            <xs:element name="puntuacion" type="xs:integer"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

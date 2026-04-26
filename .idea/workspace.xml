@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ce06df9-cf3f-434e-8316-e3f8a6c376df" name="Changes" comment="js de detalle">
+    <list default="true" id="6ce06df9-cf3f-434e-8316-e3f8a6c376df" name="Changes" comment="Agregado de scripts a index">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favoritos.html" beforeDir="false" afterPath="$PROJECT_DIR$/favoritos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/juegos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data/juegos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/juegos.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/data/juegos.xsd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/transform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/entidad_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/entidad_schema.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
       <workItem from="1776061345494" duration="4202000" />
       <workItem from="1776079011512" duration="31000" />
       <workItem from="1777198693973" duration="3934000" />
-      <workItem from="1777204061329" duration="12154000" />
+      <workItem from="1777204061329" duration="14845000" />
     </task>
     <task id="LOCAL-00001" summary="Corrección de head">
       <option name="closed" value="true" />
@@ -130,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777215012893</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Añadido de html a favoritos">
+      <option name="closed" value="true" />
+      <created>1777216855829</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777216855829</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Agregado de scripts a index">
+      <option name="closed" value="true" />
+      <created>1777216879138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777216879138</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +162,8 @@
     <MESSAGE value="index.html con css (sin js)" />
     <MESSAGE value="html de detalle junto con css" />
     <MESSAGE value="js de detalle" />
-    <option name="LAST_COMMIT_MESSAGE" value="js de detalle" />
+    <MESSAGE value="Añadido de html a favoritos" />
+    <MESSAGE value="Agregado de scripts a index" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregado de scripts a index" />
   </component>
 </project>
