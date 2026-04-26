@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ce06df9-cf3f-434e-8316-e3f8a6c376df" name="Changes" comment="Corrección de head">
+    <list default="true" id="6ce06df9-cf3f-434e-8316-e3f8a6c376df" name="Changes" comment="Header realizado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detalle.html" beforeDir="false" afterPath="$PROJECT_DIR$/detalle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favoritos.html" beforeDir="false" afterPath="$PROJECT_DIR$/favoritos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +79,7 @@
       <workItem from="1776061345494" duration="4202000" />
       <workItem from="1776079011512" duration="31000" />
       <workItem from="1777198693973" duration="3934000" />
-      <workItem from="1777204061329" duration="2576000" />
+      <workItem from="1777204061329" duration="5206000" />
     </task>
     <task id="LOCAL-00001" summary="Corrección de head">
       <option name="closed" value="true" />
@@ -91,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777204311542</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Header realizado">
+      <option name="closed" value="true" />
+      <created>1777207296814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777207296814</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Corrección de head" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrección de head" />
+    <MESSAGE value="Header realizado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header realizado" />
   </component>
 </project>
