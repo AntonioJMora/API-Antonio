@@ -17,6 +17,58 @@
         <li><a href="favoritos.html">Mis Favoritos</a></li>
     </ul>
 </header>
+<main class="app-container">
+    <section class="card">
+        <h2>Buscador de la API</h2>
 
+        <form class="search-controls" role="search" onsubmit="event.preventDefault();">
+            <select id="entityTypes" class="form-select" aria-label="Selección de Categoría">
+                <option value="all">Todo el universo (All)</option>
+                <option value="games">Juegos (Games)</option>
+                <option value="staff">Personal (Staff)</option>
+                <option value="characters">Personajes (Characters)</option>
+                <option value="monsters">Monstruos (Monsters)</option>
+                <option value="bosses">Jefes (Bosses)</option>
+                <option value="dungeons">Mazmorras (Dungeons)</option>
+                <option value="places">Lugares (Places)</option>
+                <option value="items">Objetos (Items)</option>
+            </select>
+            <input type="text" id="searchInput" class="search-input" placeholder="Escribe para buscar..." autocomplete="off" aria-label="Buscador de Zelda">
+        </form>
+
+        <p id="searchState" class="search-state hidden" role="status" aria-live="polite">Cargando resultados...</p>
+        <output id="searchResults" class="results-grid">
+            <!-- Tarjetas dinámicas desde la API -->
+        </output>
+    </section>
+    <section class="catalog-section card">
+        <article class="catalog-article">
+            <h2>Catálogo Inicial (XML)</h2>
+            <button id="btnExportCsv" class="btn btn-primary">Exportar a CSV</button>
+        </article>
+
+        <div class="table-responsive">
+            <table id="gamesTable" class="data-table">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Título</th>
+                    <th>Desarrolladora</th>
+                    <th>Publicadora</th>
+                    <th>Plataforma</th>
+                    <th>Año</th>
+                    <th>Puntuación</th>
+                </tr>
+                </thead>
+                <tbody id="gamesTableBody">
+                <!-- Filas inyectadas -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Zelda API | Desarrollado por Antonio Mora</p>
+</footer>
 </body>
 </html>
